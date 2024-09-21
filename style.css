@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: rgb(254, 235, 200);
+}
+
+header {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 25%;
+}
