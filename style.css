@@ -34,41 +34,23 @@ header {
 
 #introducao {
     display: flex;
+    height: 250px;
     align-items: center;
 }
 
 #introducao div {
     width: 50%;
-    /*aula */
-    min-height: 300px;
     padding-right: 100px;
     padding-left: 100px;
     margin-top: 50px;
 }
-
-/*aula*/
-
-#introducao img {
-   animation: cresceDiminui 3s infinite;
-}
-
-/*animação */
-
-@keyframes cresceDiminui {
-    0%, 100% {
-        scale: 1
-    }
-    50% {
-        scale: 1.2
-    }
-}
-
 
 #sobre-nos {
     margin-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgb(197, 137, 59);
+    height: 200px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -111,37 +93,4 @@ footer p {
 .direitos-autorais {
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
-
-/* AULA RESPONSIVO*/
-@media (max-width: 900px) {
-    header {
-        padding-right: 0;
-        padding-left: 0;
-        flex-direction: column;
-    }
-
-    #introducao {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #introducao div{
-        padding-right: 0;
-        padding-left: 0;
-        width: 80%;
-    }
-
-    .conteudo-produtos{
-        flex-direction: column;
-    }
-
-    .produto{
-        width: 100%;
-    }
-
-    #sobre-nos{
-        text-align: center;
-    }
 }
